@@ -13,7 +13,7 @@ Minimal ASCII-only prompt that just shows what you need.
 
 ## What it looks like
 
-![Screenshot](./example.png)
+![Screenshot](https://raw.githubusercontent.com/H3xaChad/zsh-simple-headless-theme/main/example.png)
 
 ## Installation
 
