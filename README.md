@@ -19,6 +19,6 @@ Minimal ASCII-only prompt that just shows what you need.
 
 Requires zsh + Oh My Zsh.
 
-1. `git clone https://github.com/H3xaChad/zsh-simple-headless-theme.git $ZSH_CUSTOM/themes/zsh-simple-headless-theme`
-2. Set `ZSH_THEME="zsh-simple-headless-theme/simple-headless"` in `.zshrc`
-3. Restart you shell
+1. `curl -L https://raw.githubusercontent.com/H3xaChad/zsh-simple-headless-theme/main/simple-headless.zsh-theme -o $ZSH_CUSTOM/themes/simple-headless.zsh-theme`
+2. Set `ZSH_THEME="simple-headless"` in `.zshrc`
+3. Restart your shell

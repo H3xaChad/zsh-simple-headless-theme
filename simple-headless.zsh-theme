@@ -173,11 +173,8 @@ smart_pwd() {
 # Prompt setup
 setopt PROMPT_SUBST
 
-PROMPT='%{$fg[white]%}[%{$reset_color%}%{$fg[green]%}user%{$reset_color%}%{$fg[cyan]%}@%{$reset_color%}%{$fg[blue]%}host%{$reset_color%}%{$fg[white]%}: %{$reset_color%}$(smart_pwd)%{$fg[white]%}]%{$reset_color%} '
-RPROMPT='%{$fg[white]%}(branch +4 -3 *2 ?1) %{$fg[green]%}(venv: project) %{$fg[yellow]%}(node: 42.69.0)%{$reset_color%}'
-
-# PROMPT='%{$fg[white]%}[%{$reset_color%}%{$fg[green]%}%n%{$reset_color%}%{$fg[cyan]%}@%{$reset_color%}%{$fg[blue]%}%m%{$reset_color%}%{$fg[white]%}: %{$reset_color%}$(smart_pwd)%{$fg[white]%}]%{$reset_color%} '
-# RPROMPT='$(git_prompt_info) $(venv_prompt_info) $(node_prompt_info)'
+PROMPT='%{$fg[white]%}[%{$reset_color%}%{$fg[green]%}%n%{$reset_color%}%{$fg[cyan]%}@%{$reset_color%}%{$fg[blue]%}%m%{$reset_color%}%{$fg[white]%}: %{$reset_color%}$(smart_pwd)%{$fg[white]%}]%{$reset_color%} '
+RPROMPT='$(git_prompt_info) $(venv_prompt_info) $(node_prompt_info)'
 
 # zsh-syntax-highlighting colors
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main)
